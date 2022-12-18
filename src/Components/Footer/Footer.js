@@ -66,7 +66,7 @@ const Footer = () => {
                     woiwemfwokm fwe w ecen cloenwo we - 355233
                   </div>
                 </div>
-                <div>
+                <div className="me-5 my-4 d-flex">
                   <MailOutlineIcon
                     style={{ color: "white" }}
                     className="me-2"
