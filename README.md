@@ -8,7 +8,7 @@
     - Adopt a pet form (on click of "Request for Adoption" -> Form validation using Formik -> If successful submission -> Stores data in IndexedDB).
     - Giveaway a pet form (on click of "Request for Give Away" -> Form validation using Formik -> If successful submission -> Stores data in IndexedDB). 
     - Displays Pets available at store on click of a button(What all pets do we have?).
-    - Clean code with re-usable UI components (i.e, Implemented with DRY Principle).
+    - Responsive Design, Clean code and Re-usable UI components (i.e, Implemented with DRY Principle).
     
 
 ### Tech Stack Used:
