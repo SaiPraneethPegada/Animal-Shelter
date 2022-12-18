@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Max",
+    "breed": "German Shepherd",
+    "age": "10"
+  },
+  {
+    "id": "2",
+    "name": "Cooper",
+    "breed": "Bulldog",
+    "age": "5"
+  },
+  {
+    "id": "3",
+    "name": "Teddy",
+    "breed": "Golden Retriever",
+    "age": "7"
+  },
+  {
+    "id": "4",
+    "name": "Buddy",
+    "breed": "Poodle",
+    "age": "9"
+  },
+  {
+    "id": "5",
+    "name": "Leo",
+    "breed": "Shih Tzu",
+    "age": "3"
+  },
+  {
+    "id": "6",
+    "name": "Mac",
+    "breed": "Pug Dog",
+    "age": "12"
+  },
+  {
+    "id": "7",
+    "name": "Porter",
+    "breed": "English Mastiff",
+    "age": "6"
+  },
+  {
+    "id": "8",
+    "name": "Buster",
+    "breed": "Border Collie",
+    "age": "5"
+  },
+  {
+    "id": "9",
+    "name": "Bowie",
+    "breed": "Pomeranian",
+    "age": "13"
+  },
+  {
+    "id": "10",
+    "name": "Ryder",
+    "breed": "Bull Terrier",
+    "age": "12"
+  }
+]
