@@ -43,6 +43,7 @@ const Footer = () => {
                 btnMsg="Adopt"
                 dialogTitle="Adopt a pet"
                 dialogMsg="What pet do you want to adopt?"
+                dialogBtnMsg="REQUEST FOR ADOPTION"
               />
             </div>
           </div>
