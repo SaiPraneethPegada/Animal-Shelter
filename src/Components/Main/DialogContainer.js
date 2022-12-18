@@ -16,8 +16,8 @@ import {
   TextField,
 } from "@mui/material";
 
-import CatsData from "../../CatsData.json";
-import DogsData from "../../DogsData.json";
+import CatsData from "../../Data/CatsData.json";
+import DogsData from "../../Data/DogsData.json";
 import { addUserData, createIndexedDB } from "./IndexedDB";
 
 const initialValues = {

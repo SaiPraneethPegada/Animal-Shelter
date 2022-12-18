@@ -16,8 +16,8 @@ import {
   Tabs,
 } from "@mui/material";
 
-import DogsData from "../../DogsData.json";
-import CatsData from "../../CatsData.json";
+import DogsData from "../../Data/DogsData.json";
+import CatsData from "../../Data/CatsData.json";
 
 export default function AllPetsDialog() {
   const [open, setOpen] = useState(false);
