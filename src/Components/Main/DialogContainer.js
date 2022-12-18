@@ -178,13 +178,19 @@ export default function DialogContainer({
                 label="Breed: *"
                 onChange={formik.handleChange}
               >
-                {breedList?.map((item) => {
-                  return (
-                    <MenuItem value={item} key={item}>
-                      {item}
-                    </MenuItem>
-                  );
-                })}
+                {breedList?.length > 0 ? (
+                  breedList?.map((item) => {
+                    return (
+                      <MenuItem value={item} key={item}>
+                        {item}
+                      </MenuItem>
+                    );
+                  })
+                ) : (
+                  <MenuItem>
+                    Please select a "Pet Type" to see the options.
+                  </MenuItem>
+                )}
               </Select>
             </FormControl>
           </FormGroup>
