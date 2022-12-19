@@ -28,14 +28,14 @@ const Footer = () => {
         }}
       >
         <div className="row">
-          <div className="col col-md-4 col-sm me-5">
+          <div className="col mt-3 col-md-4 col-sm me-5">
             <h4>ANIMAL SHELTER</h4>
             <div className="text-muted my-4">
               <p className="mb-0">
                 One of the best animal shelter places in India.
               </p>
               <p className="mb-0">We're recognized by the government.</p>
-              <p>Please take a pledge to take care Of these pets !</p>
+              <p>Please take a pledge to take care of these pets !</p>
             </div>
             <div>
               <DialogContainer
@@ -52,7 +52,7 @@ const Footer = () => {
             <hr />
           </Box>
 
-          <div className="col col-md-5 col-sm me-3">
+          <div className="col mt-3 col-md-5 col-sm me-3">
             <div>
               <h6>GET IN TOUCH</h6>
               <div className="text-muted">
@@ -94,7 +94,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col col-md-2 col-sm">
+          <div className="col col-md-2 mt-3 col-sm">
             <h6 className="text-nowrap">QUICK LINKS</h6>
             <div className="text-muted my-4">
               {pages.map((page) => (
@@ -119,8 +119,8 @@ const Footer = () => {
       <hr />
 
       <Box className="d-flex my-3 justify-content-between flex-wrap">
-        <div className="text-muted">Copyright @2023. Animal Shelter</div>
-        <div className="d-flex gap-3 flex-wrap">
+        <div className="text-muted mt-3">Copyright @2023. Animal Shelter</div>
+        <div className="d-flex gap-3 mt-3 flex-wrap">
           {misc.map((item) => {
             return (
               <div key={item}>

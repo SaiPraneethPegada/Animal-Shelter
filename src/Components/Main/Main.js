@@ -35,12 +35,13 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="col col-md-2 offset-md-1 pt-4 pb-3">
+        <div className="col col-md-6 d-flex justify-content-around align-items-center pt-4 pb-3">
           <img
             src={dog}
             className="image-fluid"
             alt="dog & cat"
-            width="300vw"
+            width="295px"
+            height="145px"
           />
         </div>
       </div>
@@ -68,10 +69,15 @@ const Main = () => {
       </Box>
 
       <Box className="row align-items-center mb-3">
-        <div className="col col-md-3 offset-1 my-3">
-          <img src={woman} alt="woman with dog" width="200px" />
+        <div className="col d-flex justify-content-center col-md-3 my-3">
+          <img
+            src={woman}
+            className="image-fluid"
+            alt="woman with dog"
+            width="200px"
+          />
         </div>
-        <div className="col col-md-8 text-wrap">
+        <div className="col mt-3 col-md-8 text-wrap">
           Lorem epsum difcbij j jebfkejbfewkjbfwkejbfwkefe wef wef efnweki kewj
           wkje febf weubfwef wiuefb ewfu webfuwe bfewufb em ebf
           uewbfiuwemwefweiuf wueibf iuwbefiu efewiufbwiuefbi euwbiuebfe bfe

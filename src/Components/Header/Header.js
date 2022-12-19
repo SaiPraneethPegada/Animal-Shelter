@@ -41,7 +41,7 @@ const Header = () => {
       <Container maxWidth="xl" className="my-3">
         <Toolbar className="d-grid p-0">
           <div className="row">
-            <div className="col col-md-4 d-flex align-items-center justify-content-center">
+            <div className="col col-md-5 ps-5 d-flex align-items-center">
               <Box
                 className="me-2"
                 sx={{ display: { xs: "none", md: "flex" } }}
@@ -72,7 +72,7 @@ const Header = () => {
               className="col col-md-7"
             >
               <div className="row">
-                <div className="col d-flex align-items-center justify-content-center ps-5">
+                <div className="col d-flex align-items-center ps-5">
                   {pages.map((page) => (
                     <div className="mx-3" key={page}>
                       <NavLink
@@ -86,7 +86,7 @@ const Header = () => {
                     </div>
                   ))}
                 </div>
-                <div className="col">
+                <div className="col d-flex justify-content-center">
                   <div className="d-flex gap-3 my-3 flex-fill justify-content-center">
                     <NavLink to="/" style={{ color: "inherit" }}>
                       <LinkedInIcon />
