@@ -57,7 +57,7 @@ const Header = () => {
                   display: { xs: "none", md: "flex" },
                   fontWeight: 700,
                   textTransform: "upperCase",
-                  letterSpacing: "0.1rem",
+                  letterSpacing: "0.05rem",
                   color: "inherit",
                   textDecoration: "none",
                   cursor: "pointer",
