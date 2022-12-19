@@ -77,7 +77,7 @@ const Main = () => {
             width="200px"
           />
         </div>
-        <div className="col mt-3 col-md-8 text-wrap">
+        <div className="col mt-3 col-md-9 text-wrap">
           Lorem epsum difcbij j jebfkejbfewkjbfwkejbfwkefe wef wef efnweki kewj
           wkje febf weubfwef wiuefb ewfu webfuwe bfewufb em ebf
           uewbfiuwemwefweiuf wueibf iuwbefiu efewiufbwiuefbi euwbiuebfe bfe
