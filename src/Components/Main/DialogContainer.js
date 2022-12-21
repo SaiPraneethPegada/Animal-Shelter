@@ -72,8 +72,8 @@ export default function DialogContainer({
 
     if (!values.phone) {
       errors.phone = "Required";
-    } else if (values.phone.length < 10 || values.phone.length > 14) {
-      errors.phone = "Number should be 10 digits length";
+    } else if (!/^\d{10}$/.test(values.phone)) {
+      errors.phone = "Number with 10 digits of length only!";
     }
 
     if (!values.petType) {
